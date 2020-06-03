@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  overflow: hidden;
+  font-family: 'Russo One';
+  background: url(http://www.qwizx.com/gameshows/backgrounds/orange.png);
+  background-size: cover;
+}
+#totalContainer {
+  background: green;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: 5rem;
+}
+#totalContainer #total {
+  color: yellow;
+  background: black;
+  font-size: 10rem;
+}
+.spin {
+  background: Green;
+  width: 350px;
+  text-align: center;
+  font-size: 5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+#totalContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#debug {
+  display: none;
+}
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 1;
+}
+#yt {
+  display: none;
+}
+#carousel .red {
+  background: red;
+  color: black;
+}
+#carousel .green {
+  background: green;
+  color: black;
+}
+.container {
+  width: 290px;
+  height: 200px;
+  position: relative;
+  perspective: 1000px;
+  margin: auto;
+  margin-top: 14%;
+}
+#carousel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 5s ease-out;
+}
+.disabled {
+  color: #cccccc !important;
+  background: #808080 !important;
+}
+#carousel figure {
+  display: block;
+  position: absolute;
+  width: 290px;
+  height: 201px;
+  border: 2px solid black;
+  margin: 0;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 9rem;
+  background: #1a1a1a;
+  color: white;
+}
+#carousel figure:nth-child(1) {
+  transform: rotateX(0deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(2) {
+  transform: rotateX(18deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(3) {
+  transform: rotateX(36deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(4) {
+  transform: rotateX(54deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(5) {
+  transform: rotateX(72deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(6) {
+  transform: rotateX(90deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(7) {
+  transform: rotateX(108deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(8) {
+  transform: rotateX(126deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(9) {
+  transform: rotateX(144deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(10) {
+  transform: rotateX(162deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(11) {
+  transform: rotateX(180deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(12) {
+  transform: rotateX(198deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(13) {
+  transform: rotateX(216deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(14) {
+  transform: rotateX(234deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(15) {
+  transform: rotateX(252deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(16) {
+  transform: rotateX(270deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(17) {
+  transform: rotateX(288deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(18) {
+  transform: rotateX(306deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(19) {
+  transform: rotateX(324deg) translateZ(631.37515147px);
+}
+#carousel figure:nth-child(20) {
+  transform: rotateX(342deg) translateZ(631.37515147px);
+}
